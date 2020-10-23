@@ -2,4 +2,3 @@ bases:
   - ./common/
   - ./team1/
   - ./helm-operator/
-  - ./podinfo/
