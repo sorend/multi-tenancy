@@ -13,7 +13,8 @@ spec:
             - --memcached-service=
             - --git-poll-interval=5m
             - --sync-interval=5m
+            - --sync-garbage-collection
             - --ssh-keygen-dir=/var/fluxd/keygen
             - --git-branch=master
             - --git-path=cluster
-            - --git-url=git@github.com:org/dev-cluster
+            - --git-url=git@github.com:sorend/multi-tenancy
