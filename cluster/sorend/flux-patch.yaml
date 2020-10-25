@@ -13,10 +13,12 @@ spec:
             - --memcached-service=
             - --git-poll-interval=5m
             - --sync-interval=5m
+            - --sync-garbage-collection
             - --ssh-keygen-dir=/var/fluxd/keygen
-            - --k8s-allow-namespace=team1
-            - --git-url=git@github.com:org/dev-team1
+            - --k8s-allow-namespace=sorend
+            - --git-url=git@github.com:sorend/svu2-config
             - --git-branch=master
+            - --git-path=namespaces/sorend
 ---
 apiVersion: rbac.authorization.k8s.io/v1beta1
 kind: RoleBinding
@@ -25,4 +27,4 @@ metadata:
 subjects:
   - kind: ServiceAccount
     name: flux
-    namespace: team1
+    namespace: sorend

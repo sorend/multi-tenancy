@@ -1,4 +1,4 @@
 bases:
   - ./common/
-  # - ./team1/
+  - ./sorend/
   - ./helm-operator/

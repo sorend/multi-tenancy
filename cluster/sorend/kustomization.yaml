@@ -1,4 +1,4 @@
-namespace: team1
+namespace: sorend
 resources:
   - namespace.yaml
   - rbac.yaml
