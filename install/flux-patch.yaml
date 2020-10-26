@@ -17,4 +17,4 @@ spec:
             - --ssh-keygen-dir=/var/fluxd/keygen
             - --git-branch=master
             - --git-path=cluster
-            - --git-url=git@github.com:sorend/multi-tenancy
+            - --git-url=git@github.com:sorend/svu2-config

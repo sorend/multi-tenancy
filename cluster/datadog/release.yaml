@@ -7,7 +7,7 @@ metadata:
 spec:
   chart:
     repository: https://helm.datadoghq.com
-    name: datadog/datadog
+    name: datadog
     version: 2.4.29
   values:
     targetSystem: "linux"
