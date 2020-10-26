@@ -1,0 +1,5 @@
+namespace: datadog
+resources:
+  - namespace.yaml
+  - sealedsecret.yaml
+  - release.yaml
