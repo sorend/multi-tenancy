@@ -1,4 +1,0 @@
-namespace: podinfo
-resources:
-  - namespace.yaml
-  - deployment.yaml
