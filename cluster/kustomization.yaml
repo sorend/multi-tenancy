@@ -1,5 +1,4 @@
 bases:
   - ./common/
-  - ./sorend/
   - ./helm-operator/
   - ./datadog/
