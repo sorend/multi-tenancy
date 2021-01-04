@@ -8,7 +8,7 @@ spec:
   chart:
     repository: https://helm.datadoghq.com
     name: datadog
-    version: 2.6.6
+    version: 2.6.7
   values:
     targetSystem: "linux"
     datadog:
